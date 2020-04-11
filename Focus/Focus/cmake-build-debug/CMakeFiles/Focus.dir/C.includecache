@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/goned/OneDrive/Desktop/Focus/Focus/game_init.c
+stdio.h
+-
+stdlib.h
+-
+game_init.h
+C:/Users/goned/OneDrive/Desktop/Focus/Focus/game_init.h
+
+C:/Users/goned/OneDrive/Desktop/Focus/Focus/game_init.h
+
+C:/Users/goned/OneDrive/Desktop/Focus/Focus/input_output.c
+stdio.h
+-
+input_output.h
+C:/Users/goned/OneDrive/Desktop/Focus/Focus/input_output.h
+
+C:/Users/goned/OneDrive/Desktop/Focus/Focus/input_output.h
+game_init.h
+C:/Users/goned/OneDrive/Desktop/Focus/Focus/game_init.h
+
+C:/Users/goned/OneDrive/Desktop/Focus/Focus/main.c
+stdio.h
+-
+input_output.h
+C:/Users/goned/OneDrive/Desktop/Focus/Focus/input_output.h
+
