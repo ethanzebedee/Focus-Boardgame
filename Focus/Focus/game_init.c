@@ -1,18 +1,30 @@
-//
-// Created by Lili on 26/03/2020.
-//
-
-//
-// Created by Lili on 24/03/2020.
-//
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "game_init.h"
 
 void initialize_players(player players[PLAYERS_NUM]){
 
-    // implement here the functionality to initialize the players
+    char choice = 'n';
+
+    for (int i = 0; i < PLAYERS_NUM; i++)
+    {
+        printf("Player %d enter your name:", i + 1);
+        scanf("%s", players[i].name);
+
+        while (choice != 'G' && choice != 'R')
+        {
+            printf("What colour would you like, R for red or G for green:");
+            scanf("\n%c", &choice);
+        }
+
+        if(choice == 'G'){
+            players[i].player_color = GREEN;
+            choice = 'R';
+        } else if (choice == 'R'){
+            players[i].player_color = RED;
+            choice = 'G';
+        }
+    }
 
 }
 

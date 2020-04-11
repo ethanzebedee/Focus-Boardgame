@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug"/>
+				<Option working_dir="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Focus">
-				<Option output="C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Focus.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug"/>
+				<Option output="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Focus.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,15 +30,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Focus"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Focus"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Focus/fast">
-				<Option output="C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Focus.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug"/>
+				<Option output="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Focus.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -49,49 +49,49 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Focus/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Focus/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug"/>
+				<Option working_dir="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug"/>
+				<Option working_dir="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/goned/OneDrive/Desktop/Focus/Focus/game_init.c">
+		<Unit filename="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.c">
 			<Option target="Focus"/>
 		</Unit>
-		<Unit filename="C:/Users/goned/OneDrive/Desktop/Focus/Focus/game_init.h">
+		<Unit filename="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.h">
 			<Option target="Focus"/>
 		</Unit>
-		<Unit filename="C:/Users/goned/OneDrive/Desktop/Focus/Focus/input_output.c">
+		<Unit filename="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.c">
 			<Option target="Focus"/>
 		</Unit>
-		<Unit filename="C:/Users/goned/OneDrive/Desktop/Focus/Focus/input_output.h">
+		<Unit filename="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.h">
 			<Option target="Focus"/>
 		</Unit>
-		<Unit filename="C:/Users/goned/OneDrive/Desktop/Focus/Focus/main.c">
+		<Unit filename="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/main.c">
 			<Option target="Focus"/>
 		</Unit>
-		<Unit filename="C:/Users/goned/OneDrive/Desktop/Focus/Focus/CMakeLists.txt">
+		<Unit filename="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
