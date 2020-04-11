@@ -93,3 +93,80 @@ void initialize_board(square board [BOARD_SIZE][BOARD_SIZE]){
 
 }
 
+void initialize_turns(player players[PLAYERS_NUM], square board[BOARD_SIZE][BOARD_SIZE]){
+
+    int turnNum = 1;
+    int x,y;
+    char direction[10];
+
+    while (players[1].pieces != 0 || players[2].pieces != 0 ){
+
+        if(turnNum % 2 == 1){
+
+            printf("Player One's turn \n");
+            printf("Enter Square you want to move \n");
+            scanf("%d%d", &x, &y);
+            printf("Enter direction (up, down, left, right): \n");
+            scanf("%c", &direction);
+
+            if(direction == "up"){
+
+
+            }
+            else if(direction == "down")
+            {
+
+
+            }
+            else if(direction == "left")
+            {
+
+            }
+            else if(direction == "right")
+            {
+
+
+            }
+            else
+            {
+                printf("Wrong input");
+            }
+
+        }else{
+
+            printf("Player Two's turn \n");
+            printf("Enter Square you want to move: \n");
+            scanf("%d%d", &x, &y);
+            printf("Enter direction (up, down, left, right): \n");
+            scanf("%c", &direction);
+
+            if(direction == "up"){
+
+
+            }
+            else if(direction == "down")
+            {
+
+
+            }
+            else if(direction == "left")
+            {
+
+            }
+            else if(direction == "right")
+            {
+
+
+            }
+            else
+            {
+                printf("Wrong input");
+            }
+        }
+
+        turnNum++;
+
+    }
+
+}
+
