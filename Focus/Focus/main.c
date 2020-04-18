@@ -9,6 +9,7 @@ int main() {
     // declaration of the players and the board
     player players[PLAYERS_NUM];
     square board[BOARD_SIZE][BOARD_SIZE];
+    piece pieces;
 
     initialize_players(players);
 
@@ -16,7 +17,7 @@ int main() {
 
     print_board(board);
 
-    initialize_turns(players, board);
+    initialize_turns(players, board, pieces);
 
     return 0;
 }

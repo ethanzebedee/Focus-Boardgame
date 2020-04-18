@@ -103,6 +103,7 @@ void initialize_turns(player players[PLAYERS_NUM], square board[BOARD_SIZE][BOAR
     int nxtPlyr, curPlyr, available;
     int victory = 0;
     char direction[10];
+    char choice[10];
     piece *current;
 
     while (victory == 0){
@@ -120,156 +121,163 @@ void initialize_turns(player players[PLAYERS_NUM], square board[BOARD_SIZE][BOAR
         }
 
             printf("Player %d turn \n", curPlyr);
-            printf("Enter Square you want to move \n");
-            scanf("%d%d", &x, &y);
 
-            if(board[x][y].stack->p_color == players[curPlyr].player_color) {
+            printf("Move a piece or place a reserved one (type move or place) \n");
+            scanf("%s", choice);
 
-                printf("Enter direction (up, down, left, right): \n");
-                scanf("%s", direction);
+            if(strncmp(choice, "move", 10) == 0) {
 
-                if (strncmp(direction, "up", 10) == 0) {
 
-                    printf("Enter how far you'd like to move (You can move a 1 space for every piece in the stack): \n");
-                    scanf("%d", &move);
+                printf("Enter Square you want to move \n");
+                scanf("%d%d", &x, &y);
 
-                    if(move <= board[x][y].num_pieces && move > 0){
+                if (board[x][y].stack->p_color == players[curPlyr].player_color) {
 
-                        y2 = y + move;
+                    printf("Enter direction (up, down, left, right): \n");
+                    scanf("%s", direction);
 
-                        if(board[x][y2].type == VALID) {
+                    if (strncmp(direction, "up", 10) == 0) {
 
-                            current = board[x][y].stack;
+                        printf("Enter how far you'd like to move (You can move a 1 space for every piece in the stack): \n");
+                        scanf("%d", &move);
 
-                            while(current->next != NULL){
+                        if (move <= board[x][y].num_pieces && move > 0) {
 
-                                current = current->next;
+                            y2 = y + move;
+
+                            if (board[x][y2].type == VALID) {
+
+                                current = board[x][y].stack;
+
+                                while (current->next != NULL) {
+
+                                    current = current->next;
+
+                                }
+
+                                current->next = board[x][y2].stack;
+                                board[x][y2].stack = board[x][y].stack;
+                                board[x][y].stack = NULL;
 
                             }
 
-                            current->next = board[x][y2].stack;
-                            board[x][y2].stack = board[x][y].stack;
-                            board[x][y].stack = NULL;
+                        } else {
+
+                            printf("Invalid moves\n");
 
                         }
 
-                    } else {
+                        current = board[x][y2].stack;
+                        stackHeight = 0;
 
-                        printf("Invalid moves\n");
-
-                    }
-
-                    current = board[x][y2].stack;
-                    stackHeight = 0;
-
-                    while(current->next != NULL){
-
-                        current = current->next;
-                        stackHeight++;
-                    }
-
-                    if(stackHeight> 5){
-
-                        while(current->next != NULL){
+                        while (current->next != NULL) {
 
                             current = current->next;
-
-                            if(players->player_color == current->p_color){
-
-                                players[curPlyr].captured++;
-
-                            }
-
+                            stackHeight++;
                         }
 
-                    }
+                        if (stackHeight > 5) {
 
-                } else if (strncmp(direction, "down", 10) == 0) {
-
-                    printf("Enter how far you'd like to move (You can move a 1 space for every piece in the stack): \n");
-                    scanf("%d", &move);
-
-                    if(move <= board[x][y].num_pieces && move > 0){
-
-                        y2 = y - move;
-
-                        if(board[x][y2].type == VALID) {
-
-                            current = board[x][y].stack;
-
-                            while(current->next != NULL){
+                            while (current->next != NULL) {
 
                                 current = current->next;
 
-                            }
+                                if (players->player_color == current->p_color) {
 
-                            current->next = board[x][y2].stack;
-                            board[x][y2].stack = board[x][y].stack;
-                            board[x][y].stack = NULL;
+                                    players[curPlyr].captured++;
+
+                                }
+
+                            }
 
                         }
 
-                    } else {
+                    } else if (strncmp(direction, "down", 10) == 0) {
 
-                        printf("Invalid moves\n");
+                        printf("Enter how far you'd like to move (You can move a 1 space for every piece in the stack): \n");
+                        scanf("%d", &move);
 
-                    }
+                        if (move <= board[x][y].num_pieces && move > 0) {
 
-                    current = board[x][y2].stack;
-                    stackHeight = 0;
+                            y2 = y - move;
 
-                    while(current->next != NULL){
+                            if (board[x][y2].type == VALID) {
 
-                        current = current->next;
-                        stackHeight++;
-                    }
+                                current = board[x][y].stack;
 
-                    if(stackHeight> 5){
+                                while (current->next != NULL) {
 
-                        while(current->next != NULL){
+                                    current = current->next;
+
+                                }
+
+                                current->next = board[x][y2].stack;
+                                board[x][y2].stack = board[x][y].stack;
+                                board[x][y].stack = NULL;
+
+                            }
+
+                        } else {
+
+                            printf("Invalid moves\n");
+
+                        }
+
+                        current = board[x][y2].stack;
+                        stackHeight = 0;
+
+                        while (current->next != NULL) {
 
                             current = current->next;
-
-                            if(players->player_color == current->p_color){
-
-                                players[curPlyr].captured++;
-
-                            }
-
+                            stackHeight++;
                         }
 
-                    }
+                        if (stackHeight > 5) {
 
-                } else if (strncmp(direction, "left", 10) == 0) {
-
-                    printf("Enter how far you'd like to move (You can move a 1 space for every piece in the stack): \n");
-                    scanf("%d", &move);
-
-                    if(move <= board[x][y].num_pieces && move > 0){
-
-                        x2 = x - move;
-
-                        if(board[x2][y].type == VALID) {
-
-                            current = board[x][y].stack;
-
-                            while(current->next != NULL){
+                            while (current->next != NULL) {
 
                                 current = current->next;
 
-                            }
+                                if (players->player_color == current->p_color) {
 
-                            current->next = board[x2][y].stack;
-                            board[x2][y].stack = board[x][y].stack;
-                            board[x][y].stack = NULL;
+                                    players[curPlyr].captured++;
+
+                                }
+
+                            }
 
                         }
 
-                    } else {
+                    } else if (strncmp(direction, "left", 10) == 0) {
 
-                        printf("Invalid moves\n");
+                        printf("Enter how far you'd like to move (You can move a 1 space for every piece in the stack): \n");
+                        scanf("%d", &move);
 
-                    }
+                        if (move <= board[x][y].num_pieces && move > 0) {
+
+                            x2 = x - move;
+
+                            if (board[x2][y].type == VALID) {
+
+                                current = board[x][y].stack;
+
+                                while (current->next != NULL) {
+
+                                    current = current->next;
+
+                                }
+
+                                current->next = board[x2][y].stack;
+                                board[x2][y].stack = board[x][y].stack;
+                                board[x][y].stack = NULL;
+
+                            }
+
+                        } else {
+
+                            printf("Invalid moves\n");
+
+                        }
 
                     current = board[x2][y].stack;
                     stackHeight = 0;
@@ -359,6 +367,47 @@ void initialize_turns(player players[PLAYERS_NUM], square board[BOARD_SIZE][BOAR
             } else {
 
                 printf("That piece is not your colour");
+
+            }
+
+            } else if (strncmp(choice, "place", 10) == 0) {
+
+                printf("Enter Square you want to place a piece on \n");
+                scanf("%d%d", &x, &y);
+
+                if(board[x][y].type == VALID) {
+
+                    current->next = board[x][y].stack->next;
+                    board[x][y].stack = current;
+
+                }
+
+                players[curPlyr].captured--;
+
+                current = board[x][y].stack;
+                stackHeight = 0;
+
+                while(current->next != NULL){
+
+                    current = current->next;
+                    stackHeight++;
+                }
+
+                if(stackHeight> 5){
+
+                    while(current->next != NULL){
+
+                        current = current->next;
+
+                        if(players->player_color == current->p_color){
+
+                            players[curPlyr].captured++;
+
+                        }
+
+                    }
+
+                }
 
             }
 

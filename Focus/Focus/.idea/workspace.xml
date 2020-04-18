@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a95c042f-4f5e-44cd-99c0-4463cc2710eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_init.c" beforeDir="false" afterPath="$PROJECT_DIR$/game_init.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_init.h" beforeDir="false" afterPath="$PROJECT_DIR$/game_init.h" afterDir="false" />
@@ -81,6 +80,7 @@
       <workItem from="1585246556157" duration="1349000" />
       <workItem from="1586625667235" duration="4497000" />
       <workItem from="1586719829811" duration="11381000" />
+      <workItem from="1587224401210" duration="3228000" />
     </task>
     <servers />
   </component>
@@ -120,10 +120,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586630168906" />
-    <state x="400" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1586719864744">
+    <state x="400" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1587224568667">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="400" y="202" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586719864744" />
+    <state x="400" y="202" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587224568667" />
     <state x="425" y="234" key="com.intellij.ide.util.TipDialog/0.23.1360.711@0.23.1360.711" timestamp="1585246555157" />
   </component>
 </project>
