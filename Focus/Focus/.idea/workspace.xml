@@ -13,9 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a95c042f-4f5e-44cd-99c0-4463cc2710eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Focus.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Focus.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_init.c" beforeDir="false" afterPath="$PROJECT_DIR$/game_init.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_init.h" beforeDir="false" afterPath="$PROJECT_DIR$/game_init.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +80,7 @@
       <workItem from="1586625667235" duration="4497000" />
       <workItem from="1586719829811" duration="11381000" />
       <workItem from="1587224401210" duration="3228000" />
+      <workItem from="1587233223293" duration="1404000" />
     </task>
     <servers />
   </component>
@@ -104,26 +104,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586625691999" />
-    <state width="1237" height="147" key="GridCell.Tab.0.bottom" timestamp="1586630168906">
+    <state width="1237" height="147" key="GridCell.Tab.0.bottom" timestamp="1587241914109">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586630168906" />
-    <state width="1237" height="147" key="GridCell.Tab.0.center" timestamp="1586630168906">
+    <state width="1237" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587241914109" />
+    <state width="1237" height="147" key="GridCell.Tab.0.center" timestamp="1587241914109">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586630168906" />
-    <state width="1237" height="147" key="GridCell.Tab.0.left" timestamp="1586630168906">
+    <state width="1237" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587241914109" />
+    <state width="1237" height="147" key="GridCell.Tab.0.left" timestamp="1587241914109">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586630168906" />
-    <state width="1237" height="147" key="GridCell.Tab.0.right" timestamp="1586630168906">
+    <state width="1237" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587241914109" />
+    <state width="1237" height="147" key="GridCell.Tab.0.right" timestamp="1587241914109">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586630168906" />
-    <state x="400" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1587224568667">
+    <state width="1237" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587241914109" />
+    <state x="400" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1587233265419">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="400" y="202" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587224568667" />
+    <state x="400" y="202" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587233265419" />
     <state x="425" y="234" key="com.intellij.ide.util.TipDialog/0.23.1360.711@0.23.1360.711" timestamp="1585246555157" />
   </component>
 </project>

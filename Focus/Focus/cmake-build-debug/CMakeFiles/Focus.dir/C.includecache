@@ -11,24 +11,10 @@ stdio.h
 -
 stdlib.h
 -
+string.h
+-
 game_init.h
 C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.h
 
 C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.h
-
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.c
-stdio.h
--
-input_output.h
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.h
-
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.h
-game_init.h
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.h
-
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/main.c
-stdio.h
--
-input_output.h
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.h
 

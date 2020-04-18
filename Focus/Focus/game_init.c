@@ -375,6 +375,8 @@ void initialize_turns(player players[PLAYERS_NUM], square board[BOARD_SIZE][BOAR
                 printf("Enter Square you want to place a piece on \n");
                 scanf("%d%d", &x, &y);
 
+                current = (piece*)malloc(sizeof(piece));
+
                 if(board[x][y].type == VALID) {
 
                     current->next = board[x][y].stack->next;
