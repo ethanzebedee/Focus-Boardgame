@@ -1,16 +1,14 @@
 #ifndef FOCUS_GAME_INIT_H
 #define FOCUS_GAME_INIT_H
 
-#endif //FOCUS_GAME_INIT_H
-
 
 #define BOARD_SIZE 8
 #define PLAYERS_NUM 2
 
 //colors that a piece can have
 typedef enum color {
-    RED,
-    GREEN
+    RED = 0,
+    GREEN = 1
 }color;
 
 // Square types
@@ -61,9 +59,8 @@ void initialize_players(player players[PLAYERS_NUM]);
 //Function to create the board
 void initialize_board(square board[BOARD_SIZE][BOARD_SIZE]);
 
-void initialize_turns(player players[PLAYERS_NUM], square board[BOARD_SIZE][BOARD_SIZE], piece pieces);
 
-void reserve(player players[PLAYERS_NUM], square board[BOARD_SIZE][BOARD_SIZE], piece pieces);
+#endif //FOCUS_GAME_INIT_H
 
 
 

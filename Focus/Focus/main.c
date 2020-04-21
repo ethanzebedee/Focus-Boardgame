@@ -2,6 +2,8 @@
 #include <string.h>
 
 #include "input_output.h"
+#include "game_init.h"
+#include "game.h"
 
 
 int main() {

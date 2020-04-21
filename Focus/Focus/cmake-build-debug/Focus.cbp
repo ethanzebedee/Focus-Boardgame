@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game.c">
+			<Option target="Focus"/>
+		</Unit>
+		<Unit filename="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game.h">
+			<Option target="Focus"/>
+		</Unit>
 		<Unit filename="C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.c">
 			<Option target="Focus"/>
 		</Unit>
