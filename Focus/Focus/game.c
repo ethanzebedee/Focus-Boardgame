@@ -50,7 +50,7 @@ void initialize_turns(player players[PLAYERS_NUM], square board[BOARD_SIZE][BOAR
                 printf("Enter direction (up, down, left, right): \n");
                 scanf("%s", direction);
 
-                if (strncmp(direction, "up", 10) == 0) {
+                if (strncmp(direction, "right", 10) == 0) {
 
                     printf("Enter how far you'd like to move (You can move a 1 space for every piece in the stack): \n");
                     scanf("%d", &move);
@@ -112,7 +112,7 @@ void initialize_turns(player players[PLAYERS_NUM], square board[BOARD_SIZE][BOAR
 
                     }
 
-                } else if (strncmp(direction, "down", 10) == 0) {
+                } else if (strncmp(direction, "left", 10) == 0) {
 
                     printf("Enter how far you'd like to move (You can move a 1 space for every piece in the stack): \n");
                     scanf("%d", &move);
@@ -174,7 +174,7 @@ void initialize_turns(player players[PLAYERS_NUM], square board[BOARD_SIZE][BOAR
 
                     }
 
-                } else if (strncmp(direction, "left", 10) == 0) {
+                } else if (strncmp(direction, "up", 10) == 0) {
 
                     printf("Enter how far you'd like to move (You can move a 1 space for every piece in the stack): \n");
                     scanf("%d", &move);
@@ -236,7 +236,7 @@ void initialize_turns(player players[PLAYERS_NUM], square board[BOARD_SIZE][BOAR
 
                     }
 
-                } else if (strncmp(direction, "right", 10) == 0) {
+                } else if (strncmp(direction, "down", 10) == 0) {
 
                     printf("Enter how far you'd like to move (You can move a 1 space for every piece in the stack): \n");
                     scanf("%d", &move);
