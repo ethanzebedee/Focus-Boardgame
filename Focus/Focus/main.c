@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <string.h>
+#include <string.h> //including libraries
 
 #include "input_output.h"
-#include "game_init.h"
+#include "game_init.h" //including the various files
 #include "game.h"
 
 
@@ -13,6 +13,7 @@ int main() {
     square board[BOARD_SIZE][BOARD_SIZE];
     piece pieces;
 
+    //calling all the functions
     initialize_players(players);
 
     initialize_board(board);

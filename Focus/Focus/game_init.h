@@ -1,7 +1,7 @@
 #ifndef FOCUS_GAME_INIT_H
 #define FOCUS_GAME_INIT_H
 
-
+//defines the size of board and amount of players
 #define BOARD_SIZE 8
 #define PLAYERS_NUM 2
 

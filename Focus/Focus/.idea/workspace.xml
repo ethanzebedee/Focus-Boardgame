@@ -13,8 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a95c042f-4f5e-44cd-99c0-4463cc2710eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Focus.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Focus.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.c" beforeDir="false" afterPath="$PROJECT_DIR$/game.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_init.c" beforeDir="false" afterPath="$PROJECT_DIR$/game_init.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_init.h" beforeDir="false" afterPath="$PROJECT_DIR$/game_init.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input_output.h" beforeDir="false" afterPath="$PROJECT_DIR$/input_output.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +87,7 @@
       <workItem from="1587233223293" duration="1404000" />
       <workItem from="1587477971487" duration="5781000" />
       <workItem from="1587566490987" duration="231000" />
+      <workItem from="1587592166239" duration="1144000" />
     </task>
     <servers />
   </component>
@@ -138,10 +143,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1587483766593" />
-    <state x="400" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1587566490708">
+    <state x="400" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1587592187792">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="400" y="202" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587566490708" />
+    <state x="400" y="202" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587592187792" />
     <state x="425" y="234" key="com.intellij.ide.util.TipDialog/0.23.1360.711@0.23.1360.711" timestamp="1585246555157" />
   </component>
 </project>

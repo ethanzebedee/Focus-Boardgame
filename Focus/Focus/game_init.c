@@ -3,7 +3,7 @@
 #include <string.h>
 #include "game_init.h"
 
-void initialize_players(player players[PLAYERS_NUM]){
+void initialize_players(player players[PLAYERS_NUM]){ //initialise players function
 
     char choice = 'n';
 
@@ -33,7 +33,7 @@ void initialize_players(player players[PLAYERS_NUM]){
 }
 
 //Set Invalid Squares (where it is not possible to place stacks)
-void set_invalid(square * s){
+void set_invalid(square * s){ //functions to set up board
 s->type = INVALID;
 s->stack = NULL;
 s->num_pieces = 0;
@@ -65,7 +65,7 @@ s->num_pieces = 1;
 }
 
 //initializes the board
-void initialize_board(square board [BOARD_SIZE][BOARD_SIZE]){
+void initialize_board(square board [BOARD_SIZE][BOARD_SIZE]){ //sets up board at start
 
     for(int i=0; i< BOARD_SIZE; i++){
         for(int j=0; j< BOARD_SIZE; j++){
