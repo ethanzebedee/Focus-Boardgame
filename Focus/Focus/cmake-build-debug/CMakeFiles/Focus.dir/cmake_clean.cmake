@@ -1,10 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Focus.dir/game.c.obj"
-  "CMakeFiles/Focus.dir/game_init.c.obj"
-  "CMakeFiles/Focus.dir/input_output.c.obj"
-  "CMakeFiles/Focus.dir/main.c.obj"
+  "CMakeFiles/Focus.dir/game.c.o"
+  "CMakeFiles/Focus.dir/game_init.c.o"
+  "CMakeFiles/Focus.dir/input_output.c.o"
+  "CMakeFiles/Focus.dir/main.c.o"
   "Focus.exe"
-  "Focus.exe.manifest"
   "Focus.pdb"
   "libFocus.dll.a"
 )

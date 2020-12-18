@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game.c
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game.c
 stdio.h
 -
 stdlib.h
@@ -14,17 +14,45 @@ stdlib.h
 string.h
 -
 input_output.h
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.h
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.h
 game_init.h
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.h
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.h
 game.h
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game.h
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game.h
 
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game.h
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game.h
 
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.h
-
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.h
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
 game_init.h
-C:/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.h
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.h
+
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.h
+
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.c
+stdio.h
+-
+input_output.h
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.h
+
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.h
+game_init.h
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.h
+
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/main.c
+stdio.h
+-
+string.h
+-
+input_output.h
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/input_output.h
+game_init.h
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game_init.h
+game.h
+/cygdrive/c/Users/goned/OneDrive/Desktop/Project2/Focus/Focus/game.h
 

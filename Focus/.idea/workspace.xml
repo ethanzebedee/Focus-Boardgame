@@ -11,7 +11,86 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d82592c-5c9d-4e6d-a7d9-2f4caf8a6d98" name="Default Changelist" comment="" />
+    <list default="true" id="03c1290d-8d2d-4387-8bd3-e36569e3c69b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Project2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Focus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Focus.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/game.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/game_init.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/input_output.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Focus.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/Focus.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/Focus.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/Focus.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/Focus.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Focus/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Focus/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Project2.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Project2.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Project2.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Project2.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Project2.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Project2.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Project2.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Project2.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Project2.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Project2.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.exe" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +100,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectId" id="1aGtjyFGkFdwM1v7M4IJEE6XcQd" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lqZKgegzHSIFsdUQdVcXpI3QG5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,8 +112,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Focus/CMakeLists.txt" />
   </component>
   <component name="RunManager">
     <configuration name="Focus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Focus" TARGET_NAME="Focus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Focus" RUN_TARGET_NAME="Focus">
@@ -56,12 +139,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8d82592c-5c9d-4e6d-a7d9-2f4caf8a6d98" name="Default Changelist" comment="" />
-      <created>1586373898041</created>
+      <changelist id="03c1290d-8d2d-4387-8bd3-e36569e3c69b" name="Default Changelist" comment="" />
+      <created>1608326520386</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586373898041</updated>
-      <workItem from="1586373903451" duration="260000" />
+      <updated>1608326520386</updated>
+      <workItem from="1608326524459" duration="228000" />
     </task>
     <servers />
   </component>
@@ -69,33 +152,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1586373997486">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1608326563328">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586373997486" />
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom" timestamp="1586374163650">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1608326563328" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1608326751541">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586374163650" />
-    <state width="1202" height="147" key="GridCell.Tab.0.center" timestamp="1586374163649">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608326751541" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1608326751541">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586374163649" />
-    <state width="1202" height="147" key="GridCell.Tab.0.left" timestamp="1586374163649">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608326751541" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1608326751540">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586374163649" />
-    <state width="1202" height="147" key="GridCell.Tab.0.right" timestamp="1586374163649">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608326751540" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1608326751541">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586374163649" />
-    <state x="336" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1586373912689">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608326751541" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1608326543916">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586373912689" />
-    <state x="297" y="153" key="run.anything.popup" timestamp="1586373982592">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="153" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1586373982592" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1608326543916" />
   </component>
 </project>
